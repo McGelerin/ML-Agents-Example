@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1647345583",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mcang\\Desktop\\ML-Agents_Calisma\\ML-Agents-Example\\venv\\Scripts\\mlagents-learn --run-id=BallTest2",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.5",
+        "end_time_seconds": "1647345604"
+    },
+    "total": 20.6877502,
+    "count": 1,
+    "self": 0.00534940000000006,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10418409999999989,
+            "count": 1,
+            "self": 0.10418409999999989
+        },
+        "TrainerController.start_learning": {
+            "total": 20.5782167,
+            "count": 1,
+            "self": 0.000538300000002323,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 20.5776583,
+                    "count": 1,
+                    "self": 20.5776583
+                },
+                "trainer_threads": {
+                    "total": 1.399999998596968e-06,
+                    "count": 1,
+                    "self": 1.399999998596968e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.8699999998261774e-05,
+                    "count": 1,
+                    "self": 1.8699999998261774e-05
+                }
+            }
+        }
+    }
+}
