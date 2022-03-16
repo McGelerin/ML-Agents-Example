@@ -1,0 +1,38 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 499992,
+                "file_path": "results\\yamlTest2\\MoveToGoal\\MoveToGoal-499992.onnx",
+                "reward": 1.0,
+                "creation_time": 1647432799.2092795,
+                "auxillary_file_paths": [
+                    "results\\yamlTest2\\MoveToGoal\\MoveToGoal-499992.pt"
+                ]
+            },
+            {
+                "steps": 500013,
+                "file_path": "results\\yamlTest2\\MoveToGoal\\MoveToGoal-500013.onnx",
+                "reward": 1.0,
+                "creation_time": 1647432799.6790204,
+                "auxillary_file_paths": [
+                    "results\\yamlTest2\\MoveToGoal\\MoveToGoal-500013.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500013,
+            "file_path": "results\\yamlTest2\\MoveToGoal.onnx",
+            "reward": 1.0,
+            "creation_time": 1647432799.6790204,
+            "auxillary_file_paths": [
+                "results\\yamlTest2\\MoveToGoal\\MoveToGoal-500013.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

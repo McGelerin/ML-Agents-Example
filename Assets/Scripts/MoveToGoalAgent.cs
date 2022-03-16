@@ -47,8 +47,6 @@ public class MoveToGoalAgent : Agent
     {
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(target.localPosition);
-
-
     }
 
     public override void OnActionReceived(ActionBuffers actions)
