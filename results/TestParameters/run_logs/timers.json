@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1647426157",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mcang\\Desktop\\ML-Agents_Calisma\\venv\\Scripts\\mlagents-learn config\\moveToGoal.yaml --run-id=TestParameters",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.5",
+        "end_time_seconds": "1647426165"
+    },
+    "total": 7.8794511,
+    "count": 1,
+    "self": 0.008905199999998281,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1917103,
+            "count": 1,
+            "self": 0.1917103
+        },
+        "TrainerController.start_learning": {
+            "total": 7.678835600000001,
+            "count": 1,
+            "self": 0.00010650000000200777,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.6787190999999995,
+                    "count": 1,
+                    "self": 7.6787190999999995
+                },
+                "TrainerController._save_models": {
+                    "total": 9.999999999621423e-06,
+                    "count": 1,
+                    "self": 9.999999999621423e-06
+                }
+            }
+        }
+    }
+}

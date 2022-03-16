@@ -160,8 +160,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4598510895859246226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.24, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 10.115}
+  m_LocalPosition: {x: 5.4838, y: -0, z: 0.0081}
+  m_LocalScale: {x: 0.9834102, y: 1, z: 10.019552}
   m_Children: []
   m_Father: {fileID: 4485227430208385982}
   m_RootOrder: 4
@@ -364,8 +364,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4598510896094480308}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.01, y: 0, z: -4.52}
-  m_LocalScale: {x: 1, y: 1, z: 10.114999}
+  m_LocalPosition: {x: -0.0054, y: 0, z: -5.4905}
+  m_LocalScale: {x: 1.011, y: 1, z: 11.967215}
   m_Children: []
   m_Father: {fileID: 4485227430208385982}
   m_RootOrder: 6
@@ -517,10 +517,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: a1868cb3626f665458e7e1295c9f1b2e, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 0e3de05755d2eff48919bff5b2fda2e7, type: 3}
   m_InferenceDevice: 3
   m_BehaviorType: 2
-  m_BehaviorName: My Behavior
+  m_BehaviorName: MoveToGoal
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -534,18 +534,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 4598510896356475634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6558f3ba4061794daf857bb02240145, type: 3}
+  m_Script: {fileID: 11500000, guid: 3718a53f8966a1045bdb31b1874648df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 1000
-  moveSpeed: 5
-  targetTransform: {fileID: 4598510896434414672}
-  winMaterial: {fileID: 2100000, guid: 03501f9b45c930c42819a1034c755246, type: 2}
-  loseMaterial: {fileID: 2100000, guid: 4d369045a36aa5540910b4519b1bee14, type: 2}
-  planeMeshRenderer: {fileID: 4598510895890758577}
+  movespeed: 5
+  target: {fileID: 4598510896434414672}
+  winmaterial: {fileID: 2100000, guid: 03501f9b45c930c42819a1034c755246, type: 2}
+  losematerial: {fileID: 2100000, guid: 4d369045a36aa5540910b4519b1bee14, type: 2}
+  floormeshRenderer: {fileID: 4598510895890758577}
 --- !u!114 &4598510896356475646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,8 +696,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4598510896651360239}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.01, y: 0, z: 4.49}
-  m_LocalScale: {x: 1, y: 1, z: 10.114999}
+  m_LocalPosition: {x: -0.01, y: 0, z: 5.4955}
+  m_LocalScale: {x: 0.989, y: 1, z: 11.966621}
   m_Children: []
   m_Father: {fileID: 4485227430208385982}
   m_RootOrder: 5
@@ -804,8 +804,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4598510896974877960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.33, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 10.115}
+  m_LocalPosition: {x: -5.479, y: -0, z: 0.0055}
+  m_LocalScale: {x: 1.022, y: 1, z: 10.001957}
   m_Children: []
   m_Father: {fileID: 4485227430208385982}
   m_RootOrder: 3
